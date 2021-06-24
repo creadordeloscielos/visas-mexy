@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------
+                    MODIFICACION DE SLIDER
+-------------------------------------------------------------------*/
+.slider{
+  margin-top: 62px;
+}
+
+.txt-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+      justify-content: center;
+          align-items: center;
+  height: 100%;
+}
+
+.txt-slider h1 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.txt-slider p {
+  color: #E6E6E6;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+
+.txt-slider {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.txt-centro {
+  margin-top: 50px;
+  justify-content: flex-start;
+  font-size: 32px;
+  color: #133157;
+}
+
+
+/*------------------------------------------------------------------
+                  MODIFICACION DE SLIDER
+-------------------------------------------------------------------*/
+/*# sourceMappingURL=css.css.map */
