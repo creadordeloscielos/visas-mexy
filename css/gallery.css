@@ -204,3 +204,47 @@ section .img:hover {
 		height: 25%;
 	}
 }
+
+#prueba .container .dp-flex{
+	flex-wrap: wrap;
+
+}
+
+
+.section-header .txt-center h3{
+	text-align: center !important;
+}
+
+.body-tramites {
+margin: 10px 15px;
+
+}
+
+.body-tramites h3{
+	font-size: 15px; 
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.body-tramites p{
+	font-size: 15px;
+}
+
+.txt-center h3{
+	font-size: 36px;
+    color: rgb(40, 61, 80);
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+	text-align: center;
+
+}
+
+.row2{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
