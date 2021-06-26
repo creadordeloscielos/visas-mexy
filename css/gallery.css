@@ -205,46 +205,90 @@ section .img:hover {
 	}
 }
 
-#prueba .container .dp-flex{
+#prueba .container .dp-flex {
 	flex-wrap: wrap;
 
 }
 
 
-.section-header .txt-center h3{
+.section-header .txt-center h3 {
 	text-align: center !important;
 }
 
 .body-tramites {
-margin: 10px 15px;
+	margin: 10px 15px;
 
 }
 
-.body-tramites h3{
-	font-size: 15px; 
+.body-tramites h3 {
+	font-size: 15px;
 	font-weight: bold;
 	margin-bottom: 5px;
 }
 
-.body-tramites p{
+.body-tramites p {
 	font-size: 15px;
 }
 
-.txt-center h3{
+.txt-center h3 {
 	font-size: 36px;
-    color: rgb(40, 61, 80);
-    text-align: center;
-    font-weight: 600;
-    position: relative;
+	color: rgb(40, 61, 80);
+	text-align: center;
+	font-weight: 600;
+	position: relative;
 	text-align: center;
 
 }
 
-.row2{
+.row2 {
 	display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.empleo {
+	padding: 50px 0px;
+}
+
+.empleo .row h4 {
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.empleo .row p {
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+.empleo .row ul {
+	padding-left: 8px;
+	font-weight: 500;
+}
+
+.empleo .row li {
+	list-style: none;
+	font-size: 18px;
+}
+
+.empleo .row i {
+	margin-right: 8px;
+}
+
+.empleo .row a {
+	background: #167557;
+	border: 0;
+	border-radius: 20px;
+	padding: 8px 30px;
+	color: #fff;
+	transition: 0.3s;
+	border-radius: 5px;
+	margin:5px auto 25px auto;
+	display: inline-block;
+  }
+
+  .empleo .row  {
+	align-items: center;
 }
